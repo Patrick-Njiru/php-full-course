@@ -4,7 +4,7 @@ $myName = 'Patrick Njiru';
 // The use of double quotes enables you to add dynamic strings
 $greeting = "Hello $myName, how are you?";
 $errorGreeting = "Hello $myName_how are you?";
-// $myNamehow does not exist. To avoid the above error, enclose variables in curly braces
+// $myName_how does not exist. To avoid the above error, enclose variables in curly braces
 $errorGreeting = "Hello {$myName}_how are you?";
 
 $firstName = 'Patrick';
